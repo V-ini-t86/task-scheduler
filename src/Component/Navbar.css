@@ -1,0 +1,10 @@
+nav > button {
+  background: none;
+  border: none;
+  font-size: larger;
+  font-weight: bolder;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}

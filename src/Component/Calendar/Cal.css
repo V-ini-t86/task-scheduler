@@ -1,0 +1,44 @@
+.calendar {
+  width: 400px;
+  height: 400px;
+}
+
+.calendar__day {
+  display: grid;
+  grid-template-columns: 55px 55px 55px 55px 55px 55px 55px;
+  text-align: center;
+}
+
+.calendar__day h5 {
+  margin: 5px;
+}
+
+.calendar__day button {
+  background: white;
+  border: none;
+  border-radius: 100%;
+  height: 55px;
+}
+
+.calendar__day button:hover {
+  background: lightcyan;
+  /* background: darkgray; */
+  border: none;
+}
+.calendar__currentMonths {
+  text-align: center;
+}
+
+.calendar__heading {
+  display: flex;
+  justify-content: space-evenly;
+}
+.calendar__heading button {
+  background: white;
+  border: none;
+}
+
+.calendar__heading button :hover {
+  cursor: pointer;
+  background: lightgrey;
+}
