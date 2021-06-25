@@ -1,6 +1,11 @@
 const express = require('express');
+const Controller = require('./db/CRUD/controller');
 const app = express();
+require('./db/connec');
 
+app.use(express.json());
+
+Controller(app);
 app.get("/",(req,res)=>{
     res.send("hello");
 })

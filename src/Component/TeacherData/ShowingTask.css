@@ -1,0 +1,46 @@
+.task__heading {
+  text-align: center;
+}
+.days__buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 15px;
+}
+
+.days__buttons button {
+  background: black;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: larger;
+  padding: 5px;
+}
+
+.days__buttons button:hover {
+  background: white;
+  color: black;
+}
+
+.show__task {
+  margin-top: 10px;
+  border: 2px solid black;
+  height: 80%;
+}
+
+.show__tasker {
+  display: flex;
+  margin-top: 30px;
+}
+
+.show__tasker > span {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.show__tasker h3 span {
+  margin-left: 10px;
+}
+
+.st {
+  height: 400px;
+}

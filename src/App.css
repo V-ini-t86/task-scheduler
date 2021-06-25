@@ -5,3 +5,22 @@
 .App {
   margin: 0px 50px;
 }
+.calendar__header {
+  display: grid;
+  grid-template-columns: 500px auto;
+}
+
+header > button {
+  font-size: x-large;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: lightsalmon;
+  border: none;
+  border-radius: 40px;
+  color: white;
+}
+
+header > button:hover {
+  cursor: pointer;
+  background: tomato;
+}
